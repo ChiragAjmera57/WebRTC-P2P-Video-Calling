@@ -1,0 +1,24 @@
+body{
+  background-color: rgb(36, 36, 36);
+  
+}
+.my-form-container {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+  margin: 15% auto;
+}
+
+label {
+  margin-bottom: 8px;
+  color: white;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+/* You can add more styles as needed */

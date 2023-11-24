@@ -1,0 +1,12 @@
+{
+  "name": "backend",
+  "private": true,
+  "dependencies": {
+    "socket.io": "^4.7.2"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "dev":"nodemon index.js"
+  }
+
+}
