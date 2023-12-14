@@ -45,7 +45,7 @@ export const Room = () => {
     await peer.setRemoteDescription(ans)
     sendStreams()
     
-  },[localStream])
+  },[sendStreams])
   const handleNegoNeeded = useCallback(async()=>{
     const offer = await peer.getOffer()
     socket.emit("nego:needed",{offer,to:remoteId})
